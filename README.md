@@ -1,32 +1,38 @@
-Description:
-WanderLust is a dynamic and user-friendly web application designed for travel enthusiasts to explore, review, and share travel destinations across the globe. Developed as part of Apna College’s web development curriculum, the project focuses on implementing real-world features like user authentication, CRUD operations, image uploads, and interactive maps.
+# 🌍 WanderLust
 
-The platform allows users to:
+**WanderLust** is a dynamic and user-friendly full-stack web application designed for travel enthusiasts to explore, review, and share travel destinations across the globe.  
+Developed as part of **Apna College’s Web Development Curriculum**, this project focuses on implementing real-world features like user authentication, CRUD operations, image uploads, and interactive maps.
 
-Register and log in securely
+---
 
-Add and manage travel destination posts
+## ✨ Features
 
-Upload images and write detailed reviews
+- 🔐 Register and log in securely (Passport.js authentication)
+- 📝 Add, edit, and delete travel destination posts (CRUD operations)
+- 📸 Upload images for each destination (Cloudinary integration)
+- 🌍 View all destinations on an interactive map (Mapbox integration)
+- ✅ Authorization to manage only your own posts
 
-View all destinations on an interactive map (Mapbox integration)
+---
 
-Edit or delete posts with proper authorization
+## 🛠️ Tech Stack
 
-Tech Stack:
+- **Frontend:** HTML, CSS, JavaScript, EJS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB with Mongoose ODM
+- **Authentication:** Passport.js
+- **Image Hosting:** Cloudinary
+- **Map Integration:** Mapbox
 
-Frontend: HTML, CSS, JavaScript, EJS
+---
 
-Backend: Node.js, Express.js
+## 📚 Key Learnings
 
-Database: MongoDB (Mongoose ODM)
+- Built full RESTful routes following MVC architecture
+- Implemented secure user authentication and session management
+- Integrated third-party APIs and services (Cloudinary & Mapbox)
+- Improved understanding of full-stack development with real-world deployment-ready features
 
-Other Tools: Passport.js (Authentication), Cloudinary (Image Hosting), Mapbox (Map Integration)
+---
 
-Key Learnings:
-
-Built full RESTful routes and MVC architecture
-
-Implemented secure user authentication and session management
-
-Integrated third-party services for real-world functionality
+Feel free to fork the project, give it a ⭐, and explore the code!
